@@ -1,0 +1,209 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+background-image: url('resumeback.jpg');
+background-size:cover;
+  font-weight: 400;
+    padding: 1vw;
+      transition: 0.5s;
+
+
+}
+body:hover{
+  color: red;
+  transform: scale(1.01);
+}
+
+.first {
+  height: 0.5vw;
+  background: #252a34;
+}
+.fsec {
+  height: 0.5vw;
+  background: #08d9d6;
+}
+.find {
+  background: #ff2e63;
+  padding: 0.6;
+}
+
+li {
+  display: inline-block;
+  margin-left: 3vw;
+
+}
+
+.find a {
+  text-decoration: none;
+  color: #222831;
+  font-size: 1.9vw;
+
+  font-weight: bold;
+  margin-left: 12vw;
+  font-family: 'Metal Mania', cursive;
+}
+
+.it1:hover {
+  color: #01c5c4;
+  transition: 0.2s;
+}
+.resume{
+  font-size: 2vw;
+  text-align: center;
+  margin: 1vw 38vw;
+  border-right: 0.4vw solid red;
+    border-left: 0.4vw solid red;
+    border-radius: 12%;
+  border-top: 0.4vw solid red;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3vw;
+  transition: 1s;
+  font-weight: 700;
+}
+#java1{
+  display: none;
+}
+#hr{
+  color: blue;
+  width: 72vw;
+
+  margin: 1vw;
+
+  height: 0.1vw;
+  background: blue;
+  margin-left: 11vw;
+  text-align: center;
+}
+#name{
+  display: inline-block;
+margin-left: 18vw;
+font-size: 1.7vw;
+border-radius: 20%;  transition: 1s;
+font-family: 'Open Sans Condensed', sans-serif;
+border-bottom: 0.3vw solid red;
+font-weight: 700;
+}
+#name:hover{
+  color: red;
+
+  background-image: repeating-linear-gradient(lightblue,white);
+
+}
+
+.data{
+
+  font-size: 1.1vw;
+padding: 0.4vw 7vw;
+
+
+}
+#data{
+  margin-left: 12vw;
+  margin-top: 0.8vw;
+}
+.picture{
+  height: 10vw;
+  width: 9vw;
+
+  position: absolute;
+  left: 67vw;
+  top:12.4vw;
+  border: solid grey 0.5vw;
+  border-radius: 20%;
+}
+.logo{
+  color: red;
+}
+.left{
+  width: 32vw;
+  margin-left: 11vw;
+  margin-top: 4vw;
+  clear: both;
+
+  display: inline-block;
+}
+li{
+  margin-left: 1.6vw;
+
+}
+.exp{
+
+  margin-bottom: 1vw;
+  font-size: 1.2vw;
+}
+.links{
+  font-size:1vw;
+  color: red;
+  padding: .3vw;
+
+}
+.text{
+  color: #03506f;
+  font-size: 1vw;
+    transition: 1s;
+}
+.button{
+background: #eeeeee;
+font-weight: bold;
+font-size: 1vw;
+border: #blue 1px solid;
+background: white ;
+border-radius: 1vw;
+border:none;
+  padding: 0.5vw 1vw;
+margin: 1vw;
+
+}
+.button:hover{
+  color: red;
+  background-image: repeating-linear-gradient(lightblue, white );
+  transition: 0.3s;
+  padding: 0.5vw 1vw;
+  transform: rotate(360deg);
+  transform: scale(1.1);
+}
+.button:focus{
+ outline: 0;
+}
+.mainhead{
+  color: green;
+  font-size: 2vw;
+  border-bottom: red solid 0.1vw;
+
+}
+.black{
+  color: brown;
+font-size: 1.1vw;
+}
+
+.limited{
+  color: orange;
+  font-size: 1.4vw;
+}
+.company{
+  color: magenta;
+    font-size: 1.8vw;
+}
+.blue{
+  color: blue;
+}
+.right{
+  float: right;
+  width: 30vw;
+  clear: both;
+  margin-top: 5vw;
+  margin-right: 15vw;
+
+}
+#lasthr{
+  background: blue;
+margin-top: 3vw;
+  width: 80vw;
+  margin-left: 10vw;
+  height: 0.2vw;
+}
+.lasthr{
+  height: 2vw;
+}
